@@ -19,14 +19,14 @@
        $fp = fopen("ny.json", "w") ;
        fwrite($fp, $json) ;
        fclose($fp);
-       echo "ny.json SAVED." ;
+       
        exit ;
         }
         
         
         $data = file_get_contents("https://www.nytimes.com/crosswords/game/mini") ;
         preg_match_all('/pluribus=\'([^\']+)\'/', $data, $result) ;
-        
+        echo "ny.json SAVED." ;
         ?>
         <script>
             
