@@ -1,1 +1,1 @@
-# NewYorkTimesMiniCrosswordPuzzleCatchTheAnswers
+# NewYorkTimesMiniCrosswordPuzzleCatchTheAnswers (Encode Pluribus)
